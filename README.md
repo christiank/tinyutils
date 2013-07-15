@@ -17,3 +17,5 @@ BTW, all of this code is in the public domain.
     Ratpoison config.
 
   - **ddg** -- spawn Firefox with a search query to DuckDuckGo
+
+  - **htmlgen** -- print HTML boilerplate

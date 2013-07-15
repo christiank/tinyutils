@@ -1,0 +1,17 @@
+#!/bin/sh
+# htmlgen -- Christian Koch <cfkoch@sdf.lonestar.org>
+echo '<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="iso8859-1"/>
+  <title></title>
+</head>
+<body>
+
+<header>
+  <h1></h1>
+</header>
+
+</body>
+</html>'
