@@ -15,3 +15,5 @@ BTW, all of this code is in the public domain.
 
   - **now** -- prints the date in my preferred format. Also used in my
     Ratpoison config.
+
+  - **ddg** -- spawn Firefox with a search query to DuckDuckGo
