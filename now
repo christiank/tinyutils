@@ -1,0 +1,3 @@
+#!/bin/sh
+# now -- Christian Koch <cfkoch@sdf.lonestar.org>
+date +"%a %B %d, %Y | %I:%M %p"
