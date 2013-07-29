@@ -1,7 +1,7 @@
 #!/bin/sh
 # search -- Christan Koch <cfkoch@sdf.lonestar.org>
-if [ ! -z "$(which -a xzegrep)" ]; then
-  xzegrep -i $1 ~/SEARCH
+if [ ! -z "$(which -a xz)" ]; then
+  xz -dc ~/SEARCH | grep -Ei $1 -
 else
-  echo "Can't find xzegrep(1)!"
+  echo "Can't find xz(1)!"
 fi
