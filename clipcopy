@@ -1,0 +1,7 @@
+#!/bin/sh
+# clipcopy -- Christian Koch <cfkoch@sdf.lonestar.org>
+if [ ! -z "$(which -a xclip)" ]; then
+  xclip -i -selection clipboard "$1"
+else
+  echo "Can't find xclip(1)!"
+fi
