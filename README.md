@@ -19,3 +19,7 @@ BTW, all of this code is in the public domain.
   - **ddg** -- spawn Firefox with a search query to DuckDuckGo
 
   - **htmlgen** -- print HTML boilerplate
+
+  - **clipcopy** -- load the contents of a file to the X selection
+
+  - **clippaste** -- spit out the contents the X selection
